@@ -1,0 +1,20 @@
+.btn {
+  border: 0;
+  background: #fff;
+  transform: translateX(0);
+  transition: transform 0.3s ease;
+  appearance: none;
+  backface-visibility: hidden;
+  perspective: 1000;
+  transform-style: preserve-3d;
+  user-select: none;
+  tap-highlight-color: transparent;
+
+  &:hover {
+    transform: translateX(10px);
+  }
+
+  &:disabled {
+    @apply opacity-50 cursor-not-allowed;
+  }
+}
