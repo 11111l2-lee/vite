@@ -6,7 +6,7 @@ import autoprefixer from 'autoprefixer';
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/vite-project/', // GitHub 저장소 이름
+  base: '/vite/', // GitHub 저장소 이름을 'vite'로 수정
   plugins: [react()],
   resolve: {
     alias: {
